@@ -1,7 +1,7 @@
 [
   {
-    "id": "natsuzora-custom-001",
-    "code": "88001",
+    "id": "e4f5a3b2-1c2d-4e5f-a6b7-8c9d0e1f2a3b",
+    "code": "99101",
     "name": "橘雪莉",
     "real_name": "橘雪莉",
     "subname": "魔女偵探",
@@ -17,7 +17,7 @@
     "sanity": 5,
     "traits": "魔女. 法師. 咒語縈繞.",
     "text": "這個調查員被精英或只造成恐懼的怪物以外的怪物攻擊時不會受到恐懼。\n這個調查員裝備有[gun]支援進行攻擊時 -3 [combat]。遊戲開始時將「名偵探雪莉醬」放置入場。\n[free] 這個調查員的精神值不滿時或變為 0 時，可以將你的調查員替換為橘雪莉(魔女化)，這局遊戲結束時換回這張卡，受到 1 精神創傷。\n[action] 將「名偵探雪莉醬」或「怪力」翻面。\n[elder_sign] 效果：+2。這個回合自己 +1 [combat]。",
-    "back_text": "妳的背景故事可以寫在這裡。",
+    "back_text": "卡片張數：30。\nSecondary Class Choice：守護者等級 0-5。探求者等級 0-3。潛修者 0 級最多 5 張。中立等級 0-5。\n構築需求：名偵探雪莉醬 x1，原罪-毀滅偵探 x1，隨機基礎弱點 x1。",
     "illustrator": "Natsuzora",
     "pack_code": "custom",
     "position": 1,
