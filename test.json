@@ -13,15 +13,15 @@
     "combat": 5,
     "agility": 2,
     "traits": "魔女. 法師. 咒語縈繞.",
-    "text": "這個調查員被精英或只造成恐懼的怪物以外的怪物攻擊時不會受到恐懼。\n這個調查員裝備有槍械支援進行攻擊時 -3 [combat]。遊戲開始時將名偵探雪莉醬放置入場。\n[free] 這個調查員的精神值不滿時或變為 0 時，可以將你的調查員替換為橘雪莉(魔女化)，這局遊戲結束時換回這張卡，受到 1 精神創傷。\n[action] 將名偵探雪莉醬或怪力翻面。\n[elder_sign] 效果：+2。這個回合自己 +1 [combat]。",
-    "back_text": "妳的背景故事可以寫在這裡。",
+    "text": "這個調查員被精英或只造成恐懼的怪物以外的怪物攻擊時不會受到恐懼。\n這個調查員裝備有[gun]支援進行攻擊時 -3 [combat]。遊戲開始時將「名偵探雪莉醬」放置入場。\n[free] 這個調查員的精神值不滿時或變為 0 時，可以將你的調查員替換為橘雪莉(魔女化)，這局遊戲結束時換回這張卡，受到 1 精神創傷。\n[action] 將「名偵探雪莉醬」或「怪力」翻面。\n[elder_sign] 效果：+2。這個回合自己 +1 [combat]。",
+    "back_text": "在調查員卡背面寫下的背景故事...",
     "flavor": "「真相只有一個，但魔法也是。」",
     "illustrator": "Natsuzora",
+    "is_unique": true,
     "pack_code": "custom",
     "position": 1,
     "imagesrc": "https://github.com/llk030/test-photo/blob/main/%E6%A9%98%E9%9B%AA%E8%8E%89-Front-Face.jpg?raw=true",
     "back_imagesrc": "https://github.com/llk030/test-photo/blob/main/%E6%A9%98%E9%9B%AA%E8%8E%89-Back-Face.jpg?raw=true",
-    "is_unique": true,
     "deck_requirements": {
       "size": 30,
       "card": {},
@@ -48,5 +48,3 @@
     ]
   }
 ]
-
-
