@@ -5,13 +5,14 @@
     "id": "natsuzora-sherry-project",
     "language": "zh",
     "author": "Natsuzora",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "data": {
     "packs": [
       {
         "code": "NAT",
         "name": "橘雪莉自定義擴充",
+        "id": "NAT",
         "position": 1
       }
     ],
@@ -46,4 +47,40 @@
         "deck_options": [
           { "faction": ["guardian"], "level": { "min": 0, "max": 5 } },
           { "faction": ["seeker"], "level": { "min": 0, "max": 3 } },
-          { "faction": ["mystic"], "level": { "min": 0, "max": 0 }, "limit":
+          { "faction": ["mystic"], "level": { "min": 0, "max": 0 }, "limit": 5 },
+          { "faction": ["neutral"], "level": { "min": 0, "max": 5 } }
+        ]
+      },
+      {
+        "id": "99002",
+        "code": "99002",
+        "name": "名偵探雪莉醬",
+        "type_code": "asset",
+        "class_code": "neutral",
+        "faction_code": "neutral",
+        "traits": "道具. 支援.",
+        "text": "橘雪莉專屬支援卡。",
+        "pack_code": "NAT",
+        "position": 2,
+        "quantity": 1,
+        "is_unique": true
+      },
+      {
+        "id": "99003",
+        "code": "99003",
+        "name": "原罪-毀滅偵探",
+        "type_code": "treachery",
+        "class_code": "neutral",
+        "faction_code": "neutral",
+        "traits": "弱點.",
+        "text": "橘雪莉專屬弱點卡。",
+        "pack_code": "NAT",
+        "position": 3,
+        "quantity": 1,
+        "subtype_code": "weakness"
+      }
+    ],
+    "encounter_sets": [],
+    "encounter_cards": []
+  }
+}
