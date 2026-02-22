@@ -1,24 +1,23 @@
 {
   "meta": {
+    "id": "natsuzora-sherry-project",
     "code": "NAT",
     "name": "橘雪莉自定義專案",
-    "id": "natsuzora-sherry-project",
     "language": "zh",
     "author": "Natsuzora",
-    "version": "1.0.1"
+    "version": "1.0.0"
   },
   "data": {
     "packs": [
       {
         "code": "NAT",
         "name": "橘雪莉自定義擴充",
-        "id": "NAT",
         "position": 1
       }
     ],
     "cards": [
       {
-        "id": "99001",
+        "id": "sherry_001",
         "code": "99001",
         "name": "橘雪莉",
         "real_name": "橘雪莉",
@@ -36,7 +35,6 @@
         "traits": "魔女. 法師. 咒語縈繞.",
         "text": "這個調查員被精英或只造成恐懼的怪物以外的怪物攻擊時不會受到恐懼。\n這個調查員裝備有[gun]支援進行攻擊時 -3 [combat]。遊戲開始時將「名偵探雪莉醬」放置入場。\n[free] 這個調查員的精神值不滿時或變為 0 時，可以將你的調查員替換為橘雪莉(魔女化)，這局遊戲結束時換回這張卡，受到 1 精神創傷。\n[action] 將「名偵探雪莉醬」或「怪力」翻面。\n[elder_sign] 效果：+2。這個回合自己 +1 [combat]。",
         "back_text": "構築限制：守護者(0-5)、探求者(0-3)、潛修者(0級最多5張)。",
-        "deck_requirements": "名偵探雪莉醬 x1, 原罪-毀滅偵探 x1, 隨機基礎弱點 x1",
         "illustrator": "Natsuzora",
         "pack_code": "NAT",
         "position": 1,
@@ -44,17 +42,44 @@
         "deck_limit": 1,
         "imagesrc": "https://raw.githubusercontent.com/llk030/test-photo/main/%E6%A9%98%E9%9B%AA%E8%8E%89-Front-Face.jpg",
         "back_imagesrc": "https://raw.githubusercontent.com/llk030/test-photo/main/%E6%A9%98%E9%9B%AA%E8%8E%89-Back-Face.jpg",
+        "deck_requirements": {
+          "size": 30,
+          "card": {
+            "99002": 1,
+            "99003": 1
+          },
+          "random": [
+            {
+              "target": "subtype_code",
+              "value": "basicweakness"
+            }
+          ]
+        },
         "deck_options": [
-          { "faction": ["guardian"], "level": { "min": 0, "max": 5 } },
-          { "faction": ["seeker"], "level": { "min": 0, "max": 3 } },
-          { "faction": ["mystic"], "level": { "min": 0, "max": 0 }, "limit": 5 },
-          { "faction": ["neutral"], "level": { "min": 0, "max": 5 } }
+          {
+            "faction": ["guardian"],
+            "level": { "min": 0, "max": 5 }
+          },
+          {
+            "faction": ["seeker"],
+            "level": { "min": 0, "max": 3 }
+          },
+          {
+            "faction": ["mystic"],
+            "level": { "min": 0, "max": 0 },
+            "limit": 5
+          },
+          {
+            "faction": ["neutral"],
+            "level": { "min": 0, "max": 5 }
+          }
         ]
       },
       {
-        "id": "99002",
+        "id": "sherry_signature_01",
         "code": "99002",
         "name": "名偵探雪莉醬",
+        "real_name": "名偵探雪莉醬",
         "type_code": "asset",
         "class_code": "neutral",
         "faction_code": "neutral",
@@ -63,21 +88,24 @@
         "pack_code": "NAT",
         "position": 2,
         "quantity": 1,
+        "deck_limit": 1,
         "is_unique": true
       },
       {
-        "id": "99003",
+        "id": "sherry_weakness_01",
         "code": "99003",
         "name": "原罪-毀滅偵探",
+        "real_name": "原罪-毀滅偵探",
         "type_code": "treachery",
         "class_code": "neutral",
         "faction_code": "neutral",
         "traits": "弱點.",
         "text": "橘雪莉專屬弱點卡。",
+        "subtype_code": "weakness",
         "pack_code": "NAT",
         "position": 3,
         "quantity": 1,
-        "subtype_code": "weakness"
+        "deck_limit": 1
       }
     ],
     "encounter_sets": [],
