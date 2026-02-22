@@ -3,6 +3,8 @@
     "code": "custom_001",
     "name": "橘雪莉",
     "real_name": "橘雪莉",
+    "subname": "魔女偵探",
+    "is_unique": true,
     "type_code": "investigator",
     "class_code": "guardian",
     "faction_code": "guardian",
@@ -14,10 +16,9 @@
     "agility": 2,
     "traits": "魔女. 法師. 咒語縈繞.",
     "text": "這個調查員被精英或只造成恐懼的怪物以外的怪物攻擊時不會受到恐懼。\n這個調查員裝備有[gun]支援進行攻擊時 -3 [combat]。遊戲開始時將「名偵探雪莉醬」放置入場。\n[free] 這個調查員的精神值不滿時或變為 0 時，可以將你的調查員替換為橘雪莉(魔女化)，這局遊戲結束時換回這張卡，受到 1 精神創傷。\n[action] 將「名偵探雪莉醬」或「怪力」翻面。\n[elder_sign] 效果：+2。這個回合自己 +1 [combat]。",
-    "back_text": "卡片背面描述文字。",
+    "back_text": "卡片背面故事背景描述。",
     "flavor": "「真相只有一個，但魔法也是。」",
     "illustrator": "Natsuzora",
-    "is_unique": true,
     "pack_code": "custom",
     "position": 1,
     "imagesrc": "https://raw.githubusercontent.com/llk030/test-photo/main/%E6%A9%98%E9%9B%AA%E8%8E%89-Front-Face.jpg",
@@ -28,23 +29,10 @@
       "random": [{"target": "subtype_code", "value": "basicweakness"}]
     },
     "deck_options": [
-      {
-        "faction": ["guardian"],
-        "level": {"min": 0, "max": 5}
-      },
-      {
-        "faction": ["seeker"],
-        "level": {"min": 0, "max": 3}
-      },
-      {
-        "faction": ["mystic"],
-        "level": {"min": 0, "max": 0},
-        "limit": 5
-      },
-      {
-        "faction": ["neutral"],
-        "level": {"min": 0, "max": 5}
-      }
+      { "faction": ["guardian"], "level": { "min": 0, "max": 5 } },
+      { "faction": ["seeker"], "level": { "min": 0, "max": 3 } },
+      { "faction": ["mystic"], "level": { "min": 0, "max": 0 }, "limit": 5 },
+      { "faction": ["neutral"], "level": { "min": 0, "max": 5 } }
     ]
   }
 ]
